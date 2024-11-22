@@ -1,0 +1,51 @@
+/* About.css */
+.about {
+    width: 100%;
+    padding: 60px 20px; /* Space for content */
+    background-color: #f4f4f4; /* Light background for contrast */
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #333; /* Dark text for readability */
+}
+
+.about h2 {
+    font-size: 48px; /* Larger heading for emphasis */
+    text-align: center;
+    color: #070707; /* Consistent color with your theme */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.section {
+    margin: 40px 0; /* Space between sections */
+}
+
+.section h3 {
+    font-size: 28px; /* Subheading size */
+    color: #0a175e; /* Consistent accent color */
+    margin-bottom: 10px; /* Space below subheading */
+}
+
+.section p {
+    font-size: 18px; /* Readable paragraph size */
+    line-height: 1.6; /* Improved line spacing */
+    text-align: left; /* Left-align for readability */
+    max-width: 800px; /* Limit width for better reading */
+    margin: 0 auto; /* Center the paragraphs */
+}
+
+@media only screen and (max-width: 650px) {
+    .about {
+        padding: 40px 10px; /* Less padding on small screens */
+    }
+
+    .about h2 {
+        font-size: 36px; /* Smaller heading on mobile */
+    }
+
+    .section h3 {
+        font-size: 24px; /* Smaller subheading on mobile */
+    }
+
+    .section p {
+        font-size: 16px; /* Smaller paragraph size on mobile */
+    }
+}

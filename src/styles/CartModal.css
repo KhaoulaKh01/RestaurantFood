@@ -1,0 +1,27 @@
+/* CartModal.css */
+.cartModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  .cartItem, .totalPrice {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+  
+  .checkoutModal {
+    margin-top: 2rem;
+  }
+  
+  .checkoutModal form {
+    display: flex;
+    flex-direction: column;
+  }
+  

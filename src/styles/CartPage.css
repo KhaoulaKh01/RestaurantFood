@@ -1,0 +1,9 @@
+/* CartPage.css ou un fichier CSS global */
+.cart-item-image {
+    width: 50px;    /* Largeur de l'image */
+    height: 50px;   /* Hauteur de l'image */
+    object-fit: cover; /* Ajuste l'image pour qu'elle soit bien cadrée */
+    border-radius: 8px; /* Ajoute des coins arrondis si désiré */
+    margin-right: 10px; /* Espace entre l'image et le texte */
+  }
+  

@@ -1,0 +1,24 @@
+.footer {
+    background-color: #121619;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* Adds space between icons */
+}
+
+.socialMedia a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.socialMedia a:hover {
+    color: #f2a365; /* Change color on hover */
+}
